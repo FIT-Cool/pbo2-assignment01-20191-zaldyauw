@@ -10,11 +10,12 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("view/MainForm.fxml"));
-        primaryStage.setTitle("1772031");
+        Parent root = FXMLLoader.load(getClass().getResource("view/MenuForm.fxml"));
+        primaryStage.setTitle("oopl super");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
+
 
     public static void main(String[] args) {
         launch(args);
